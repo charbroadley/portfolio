@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+import Heading from './Heading';
+import Details from './Details';
+import Projects from './Projects';
+
+const WholePage = styled.main`
+  color: white;
+  font-size: 1.2em;
+  background-color: #033220;
+  margin: 0px;
+  border: 0px;
+`
+// #024818
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <WholePage>
+      <Heading/>
+      <Details/>
+      <Projects/>
+    </WholePage>
   );
 }
 
