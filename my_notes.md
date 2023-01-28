@@ -1,8 +1,8 @@
-Hi, I'm Ross
-I'm an Edinburgh based Software Developer currently working atAND Digital
-I have a passion for design, creativity, and programming. With an eagerness to learn and work within the tech industry, I am constantly testing and playing with new technologies to improve myself as a developer.
-
-I am a software developer with a passion for problem-solving (I can't say no to a challenge) and a desire to use my skills to impact the world in a meaningful way. I love anything to do with databases, object-oriented programming and game logic. I have experience throughout the full-stack and I am constantly learning and improving!
+## TO DO
+1. Reserach & add React Routes - scrolling down to correct section, not different pages
+2. Write up project information
+3. Add link to Linkedin profile
+4. Work more on projects
 
 ## ABOUT ME
 
@@ -14,7 +14,7 @@ I have a background in design, graduating from Edinburgh College of Art with a d
 
 ## CODECLAN BIO
 Charlotte has a background in design, graduating with a degree in glass. Since then she has worked in administration but is now retraining in order to begin a more creative and fulfilling career. In her free time she loves to be outdoors, and to run in the hills around Edinburgh
-
+_______________________________________________________________________________________________________________________
 ## PROJECTS
 
 ## FANTASY BAZAAR
@@ -22,6 +22,8 @@ Written in Python using Flask with a postgreSQL database
 Demonstrates the use of RESTful routes
 
 ## PUNK PINTS
-
+Written in Javascript using React, and the Brew Dog Punk API
 
 ## E-COMMERCE 
+Written in Javascript using React & React Routes
+_______________________________________________________________________________________________________________________

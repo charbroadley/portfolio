@@ -1,9 +1,10 @@
-import './App.css';
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import styled from 'styled-components';
-import Heading from './Heading';
-import Details from './Details';
-import Contact from './Contact';
-import Projects from './Projects';
+// import NavBar from "./NavBar";
+import Heading from './components/Heading.js'
+import Details from './components/Details.js'
+import Projects from './components/Projects.js'
+import Contact from './components/Contact.js'
 
 const WholePage = styled.main`
   color: white;
@@ -15,12 +16,13 @@ const WholePage = styled.main`
 
 function App() {
   return (
-    <WholePage>
-      <Heading/>
-      <Details/>
-      <Projects/>
-      <Contact/>
-    </WholePage>
+
+      <WholePage>
+        <Heading/>
+        <Details/>
+        <Projects/>
+        <Contact/>
+      </WholePage>
   );
 }
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import linkedin from "../images/linkedin.png"
 
 const Heading = styled.h3`
     font-family: 'Amatic SC', sans-serif;
@@ -15,14 +16,23 @@ const ContactInfo = styled.section`
     margin-right: 150px;
 `
 const Text = styled.p`
-    font-size: 1.5em;
+    font-size: 1em;
 `
 
 const Contact = () => {
     return(
         <ContactInfo>
         <Heading1>CONTACT INFO</Heading1>
-                <Text>broadleychar@gmail.com</Text>
+            <Text>
+                <p>broadleychar@gmail.com</p>
+                <p>
+                    <a href="www.linkedin.com/in/charlotte-broadley">
+                        <img src={linkedin} width="25" alt="linkedin">
+                        </img>
+                    </a>
+                </p>
+            </Text>
+                
         </ContactInfo>
     )
 }

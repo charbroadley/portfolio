@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fantasyBazaar from './images/fantasy-bazaar.png'
+import fantasyBazaar from '../images/fantasy-bazaar.png'
 
 const ProjectContainer = styled.div`
     display: grid;

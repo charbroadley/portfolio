@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import drawing from './images/drawing.jpg'
+import drawing from '../images/drawing.jpg'
 
 const MyName = styled.h1`
     font-family: 'Amatic SC', sans-serif;

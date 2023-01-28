@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import punkPintsScreengrab from './images/punk-pints.png'
+import punkPintsScreengrab from '../images/punk-pints.png'
 
 const ProjectContainer = styled.div`
     display: grid;
