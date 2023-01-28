@@ -2,6 +2,7 @@
 1. Reserach & add React Routes - scrolling down to correct section, not different pages
 2. Write up project information
 3. Work more on projects
+4. Remove "React App" as title
 
 ## ABOUT ME
 
