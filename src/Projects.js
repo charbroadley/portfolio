@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import Project1 from "./Project1";
+import Project2 from "./Project2";
+import Project3 from "./Project3";
 
 const ProjectBox = styled.p`
     background-color: #FFB7C6;
@@ -17,10 +20,9 @@ const Projects = () => {
     return (
         <section>
             <Heading>PROJECTS</Heading>
-                    <ProjectBox>Project 1</ProjectBox>
-                    <ProjectBox>Project 2</ProjectBox>
-                    <ProjectBox>Project 3</ProjectBox>
-                    <ProjectBox>Project 4</ProjectBox>
+                    <ProjectBox><Project1/></ProjectBox>
+                    <ProjectBox><Project2/></ProjectBox>
+                    <ProjectBox><Project3/></ProjectBox>
         </section>
     )
 }

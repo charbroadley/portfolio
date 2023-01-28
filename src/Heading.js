@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import myPhoto from './images/me.jpg'
 import drawing from './images/drawing.jpg'
 
 const MyName = styled.h1`
