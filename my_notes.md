@@ -1,8 +1,7 @@
-## TO DO
+##TO DO
 1. Reserach & add React Routes - scrolling down to correct section, not different pages
 2. Write up project information
-3. Add link to Linkedin profile
-4. Work more on projects
+3. Work more on projects
 
 ## ABOUT ME
 
