@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import myPhoto from './images/me.jpg'
+import drawing from './images/drawing.jpg'
 
 const MyName = styled.h1`
     font-family: 'Amatic SC', sans-serif;
@@ -26,7 +27,7 @@ const Heading = () => {
             <MyName>Char Broadley</MyName>
             <MyJobTitle>Software Developer</MyJobTitle>
             
-            <MyPhoto src={myPhoto} alt="me" width="150"></MyPhoto>
+            <MyPhoto src={drawing} alt="A drawing of Char by a friend" width="150"></MyPhoto>
         </Details>
     )
 }
