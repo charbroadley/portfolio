@@ -9,7 +9,7 @@ const DetailsSection = styled.section`
 `
 const Heading = styled.h3`
     font-family: 'Amatic SC', sans-serif;
-    font-size: 40px;
+    font-size: 2.5em;
 `
 const Heading1 = styled(Heading)`
     grid-area: heading1;
@@ -40,19 +40,21 @@ const LongParagraph = styled(Paragraph)`
     grid-area: textbox1;
 `
 const Textbox2 = styled(Paragraph)`
+    overflow-wrap: break-word;
     grid-area: textbox2;
-    display: grid;
-    grid-template-areas:
-        'first second third';
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-areas:
+        'first second third'; */
 `
 const Column1 = styled(Paragraph)`
-    grid-area: first;
+    /* grid-area: first; */
 `
 const Column2 = styled(Paragraph)`
-    grid-area: second;
+    /* grid-area: second; */
 `
 const Column3 = styled(Paragraph)`
-    grid-area: third;
+    /* grid-area: third; */
 `
 
 const Details = () => {

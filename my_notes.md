@@ -2,7 +2,9 @@
 1. Reserach & add React Routes - scrolling down to correct section, not different pages
 2. Write up project information
 3. Work more on projects
-4. Remove "React App" as title
+4. Change react favicon
+5. MAKE IT WORK FOR MOBILE!!
+    a. Reactive images
 
 ## ABOUT ME
 
@@ -27,3 +29,28 @@ Written in Javascript using React, and the Brew Dog Punk API
 ## E-COMMERCE 
 Written in Javascript using React & React Routes
 _______________________________________________________________________________________________________________________
+
+/* Media Queries: Tablet Portrait */
+@media screen and (max-width: 768px) {
+    .header{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    ...
+
+/* Media Queries: Phone Portrait */
+@media screen and (max-width: 450px) {
+    .header-grid{
+        padding: 0;
+    }
+    ...
+
+/* Media Queries: Small Phone Portrait */
+@media screen and (max-width: 375px) {
+    #computer-pic,
+    #laptop-pic,
+    #very-old-pc {
+        max-height: 200px;
+    }
+    ...
+

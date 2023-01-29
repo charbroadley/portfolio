@@ -12,12 +12,11 @@ const WholePage = styled.main`
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #033220;
 `
-// #024818
 
 function App() {
   return (
 
-      <WholePage>
+      <main>
         <Heading/>
         <Details/>
         <Projects/>

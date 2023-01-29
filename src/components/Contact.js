@@ -3,7 +3,7 @@ import linkedin from "../images/linkedin.png"
 
 const Heading = styled.h3`
     font-family: 'Amatic SC', sans-serif;
-    font-size: 40px;
+    font-size: 2.5em;
 `
 const Heading1 = styled(Heading)`
     margin: 15px 100px 15px 100px;

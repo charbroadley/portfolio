@@ -6,7 +6,7 @@ const Project3 = () => {
             <h3>E-Commerce</h3>
             <h4>Javascript, React<br/>
                 Solo, 2 days</h4>
-            <p>A bit about project three</p>
+            <p>A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. </p>
         </div>
     )
 }

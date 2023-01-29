@@ -3,4 +3,38 @@
 
 body {
     margin: 0px;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Media Queries: Tablet Portrait */
+@media screen and (max-width: 768px) {
+    .header{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* more CSS here */
+}
+
+/* Media Queries: Phone Portrait */
+@media screen and (max-width: 450px) {
+    .header-grid{
+        padding: 0;
+    }
+     /* more CSS here */
+}
+
+/* Media Queries: Small Phone Portrait */
+@media screen and (max-width: 375px) {
+    #computer-pic,
+    #laptop-pic,
+    #very-old-pc {
+        max-height: 200px;
+    }
+     /* more CSS here */
 }

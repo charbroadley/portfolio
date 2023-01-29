@@ -3,17 +3,17 @@ import drawing from '../images/drawing.jpg'
 
 const MyName = styled.h1`
     font-family: 'Amatic SC', sans-serif;
-    font-size: 70px;
+    font-size: 4em;
 `
 const MyJobTitle = styled(MyName)`
-    font-size: 50px;
+    font-size: 3em;
 `
 const Details = styled.section`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
 `
 const MyPhoto = styled.img`
     border-radius: 50%;
