@@ -3,8 +3,6 @@
 2. Write up project information
 3. Work more on projects
 4. Change react favicon
-5. MAKE IT WORK FOR MOBILE!!
-    a. Reactive images
 
 ## ABOUT ME
 

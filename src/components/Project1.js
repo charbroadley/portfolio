@@ -9,7 +9,7 @@ const Project1 = () => {
                     Solo, 6 days</h4>
                 <p>A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one. A bit about project one.</p>
             </div>
-            <img className="project-image" src={fantasyBazaar} height="200" class="responsive" alt="bullseye with rocket flying across"></img>
+            <img className="project-image" src={fantasyBazaar} alt="bullseye with rocket flying across"></img>
         </div>
     )
 }

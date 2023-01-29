@@ -7,8 +7,8 @@ const Projects = () => {
         <section>
             <h3 className="project-title">PROJECTS</h3>
                 <div className="projects-container">
-                        <p className="project"><Project1/></p>
                         <p className="project"><Project2/></p>
+                        <p className="project"><Project1/></p>
                         <p className="project"><Project3/></p>
                 </div>
         </section>

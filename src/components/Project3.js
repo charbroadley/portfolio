@@ -9,7 +9,7 @@ const Project3 = () => {
                     Solo, 2 days</h4>
                 <p>A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. </p>
             </div>
-            <img className="project-image" src={punkPintsScreengrab} height="200" class="responsive" alt="screengrab of Punk Pints app"></img>
+            <img className="project-image" src={punkPintsScreengrab} alt="screengrab of Punk Pints app"></img>
         </div>
     )
 }
