@@ -1,33 +1,14 @@
-import styled from 'styled-components';
 import drawing from '../images/drawing.jpg'
-
-const MyName = styled.h1`
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 4em;
-`
-const MyJobTitle = styled(MyName)`
-    font-size: 3em;
-`
-const Details = styled.section`
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-`
-const MyPhoto = styled.img`
-    border-radius: 50%;
-`
 
 const Heading = () => {
 
     return (
-        <Details>
-            <MyName>Char Broadley</MyName>
-            <MyJobTitle>Software Developer</MyJobTitle>
+        <section className='heading'>
+            <h1 className="name">Char Broadley</h1>
+            <h2 className='job-title'>Software Developer</h2>
             
-            <MyPhoto src={drawing} alt="A drawing of Char by a friend" width="150"></MyPhoto>
-        </Details>
+            <img className='me' src={drawing} alt="A drawing of Char by a friend" width="150"></img>
+        </section>
     )
 }
 

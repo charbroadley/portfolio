@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+/* CSS FOR MOBILE */
 body {
     margin: 0px;
     height: 100%;
@@ -10,31 +11,345 @@ body {
     box-sizing: border-box;
 }
 
-
-
-/* Media Queries: Tablet Portrait */
-@media screen and (max-width: 768px) {
-    .header{
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    /* more CSS here */
+/* APP */
+.wholepage {
+    color: whitesmoke;
+    font-size: 1.1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #033220;
 }
 
-/* Media Queries: Phone Portrait */
-@media screen and (max-width: 450px) {
-    .header-grid{
-        padding: 0;
-    }
-     /* more CSS here */
+/* HEADING */
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Media Queries: Small Phone Portrait */
-@media screen and (max-width: 375px) {
-    #computer-pic,
-    #laptop-pic,
-    #very-old-pc {
+.name {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3em;
+}
+
+.job-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2.5em;
+}
+
+.me {
+    border-radius: 50%;
+}
+
+/* DETAILS */
+.details-section {
+    display: grid;
+    grid-template-areas:
+        'heading1'
+        'textbox1'
+        'heading2'
+        'textbox2';
+}
+
+.details-section h3 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2em;
+}
+
+.header-about {
+    grid-area: heading1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-stack {
+    grid-area: heading2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    background-color: #FFB7C6;
+    border-radius: 20px;
+    grid-area: textbox1;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div p{
+    padding: 5px;
+    margin: 0px;
+}
+
+.about-text {
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+.stack {
+    background-color: #FFB7C6;
+    border-radius: 20px;
+    grid-area: textbox2;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stack-text {
+    overflow-wrap: break-word;
+    justify-content: center;
+}
+
+/* Projects.js */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 100px 25px 100px;
+    /* top, right, bottom, left */
+}
+
+.project-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2.5em;
+    margin-left: 100px;
+}
+
+.project {
+    background-color: #FFB7C6;
+    border-radius: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Project1.js / Project2.js / Project3.js */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    width: responsive;
+    max-height: 200px;
+}
+
+/* Contact.js */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contact-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2.5em;
+    margin: 15px 100px 15px 100px;
+}
+
+.contact-info {
+    font-size: 1em;
+}
+
+/* CSS FOR DESKTOP COMPUTERS*/
+@media (min-width: 1080px) {
+    body {
+        margin: 0px;
+        height: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* App.js */
+    .wholepage {
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #033220;
+    }
+    /* Heading.js */
+    .heading {
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .name {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 4em;
+    }
+
+    .job-title {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 3em;
+    }
+
+    .me {
+        border-radius: 50%;
+    }
+    /* Details.js */
+    .details-section {
+        display: grid;
+        grid-template-areas:
+            'heading1 heading2'
+            'textbox1 textbox2';
+        grid-template-columns: 60% 40%;
+    }
+
+    .details-section h3 {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 2.5em;
+    }
+
+    .header-about {
+        grid-area: heading1;
+        margin: 15px 100px 15px 100px;
+    }
+
+    .header-stack {
+        grid-area: heading2;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0.6em;
+    }
+
+    .about {
+        background-color: #FFB7C6;
+        border-radius: 20px;
+        margin: 25px 25px 25px 100px;
+        /* top, right, bottom, left */
+    }
+
+    section div p{
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .about-text {
+        text-align: justify;
+        grid-area: textbox1;
+    }
+
+    .stack {
+        background-color: #FFB7C6;
+        border-radius: 20px;
+        margin: 25px 100px 25px 25px;
+    }
+
+    .stack-text {
+        overflow-wrap: break-word;
+        grid-area: textbox2;
+        display: flex;
+        justify-content: space-between
+    }
+
+    /* Projects.js */
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px 100px 25px 100px;
+        /* top, right, bottom, left */
+    }
+
+    .project-title {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 2.5em;
+        margin-left: 100px;
+    }
+
+    .project {
+        background-color: #FFB7C6;
+        border-radius: 20px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    /* Project1.js / Project2.js / Project3.js */
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-image {
+        width: responsive;
         max-height: 200px;
     }
-     /* more CSS here */
+
+    /* Contact.js */
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .contact-title {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 2.5em;
+        margin: 15px 100px 15px 100px;
+    }
+
+    .contact-info {
+        font-size: 1em;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Media Queries: Tablet Portrait */
+    @media screen and (max-width: 768px) {
+        .header{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        /* more CSS here */
+    }
+
+    /* Media Queries: Phone Portrait */
+    @media screen and (max-width: 450px) {
+        .header-grid{
+            padding: 0;
+        }
+        /* more CSS here */
+    }
+
+    /* Media Queries: Small Phone Portrait */
+    @media screen and (max-width: 375px) {
+        #computer-pic,
+        #laptop-pic,
+        #very-old-pc {
+            max-height: 200px;
+        }
+        /* more CSS here */
+    }
