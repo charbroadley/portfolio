@@ -6,10 +6,10 @@ import Contact from './components/Contact.js'
 function App() {
   return (
       <main className="wholepage">
-        <Heading/>
-        <Details/>
-        <Projects/>
-        <Contact/>
+            <Heading/>
+            <Details/>
+            <Projects/>
+            <Contact/>
       </main>
   );
 }

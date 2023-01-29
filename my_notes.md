@@ -1,8 +1,8 @@
 ##TO DO
-1. Reserach & add React Routes - scrolling down to correct section, not different pages
-2. Write up project information
-3. Work more on projects
-4. Change react favicon
+1. Fix link to linkedin
+2. Reserach & add React Routes - scrolling down to correct section, not different pages
+3. Write up project information
+4. Work more on projects
 
 ## ABOUT ME
 

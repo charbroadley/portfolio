@@ -1,6 +1,6 @@
 const NavBar = () => {
     return(
-        <Link to="#about-me">ABOUT ME</Link>
+        <Link to="">ABOUT ME</Link>
     )
 }
 export default NavBar
