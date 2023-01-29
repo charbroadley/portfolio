@@ -5,8 +5,9 @@
 
 
 
-/* CSS FOR MOBILE */
-@media screen and (max-width: 450px) {
+/* CSS FOR MOBILE / TABLET */
+@media screen and (max-width: 768px)
+/* @media screen and (max-width: 450px) */ {
     body {
         margin: 0px;
         height: 100%;
