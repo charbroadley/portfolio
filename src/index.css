@@ -22,7 +22,7 @@
         color: whitesmoke;
         font-size: 1.1em;
         font-family: 'Roboto Condensed', sans-serif;
-        background-color: #033220;
+        background-color: #FFB7C6;
     }
 
     /* HEADING */
@@ -78,7 +78,7 @@
     }
 
     .about {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         grid-area: textbox1;
         width: 90%;
@@ -99,7 +99,7 @@
     }
 
     .stack {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         grid-area: textbox2;
         width: 90%;
@@ -133,7 +133,7 @@
     }
 
     .project {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         width: 90%;
         margin: auto;
@@ -217,7 +217,7 @@
         color: white;
         font-size: 1.1em;
         font-family: 'Roboto Condensed', sans-serif;
-        background-color: #033220;
+        background-color: #FFB7C6;
     }
     /* HEADING */
     .heading {
@@ -266,7 +266,7 @@
     }
 
     .about {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         margin: 25px 25px 25px 100px;
         /* top, right, bottom, left */
@@ -287,7 +287,7 @@
     }
 
     .stack {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         margin: 25px 100px 25px 25px;
         grid-area: textbox2;
@@ -318,7 +318,7 @@
     }
 
     .project {
-        background-color: #FFB7C6;
+        background-color: #033220;
         border-radius: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -335,9 +335,9 @@
 
     .project-description {
         grid-area: project-text;
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .project-image {

@@ -1,3 +1,6 @@
+#033220 - dark green
+#FFB7C6 - pink
+
 ##TO DO
 1. Fix link to linkedin
 2. Reserach & add React Routes - scrolling down to correct section, not different pages
