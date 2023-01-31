@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2138b6ff.css",
-    "main.js": "/portfolio/static/js/main.ed2f8ebf.js",
+    "main.css": "/portfolio/static/css/main.823d7588.css",
+    "main.js": "/portfolio/static/js/main.f9f8f297.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/punk-pints.png": "/portfolio/static/media/punk-pints.2d795d1fb2c459468b60.png",
     "static/media/fantasy-bazaar.png": "/portfolio/static/media/fantasy-bazaar.545a28898af68dfbea2c.png",
     "static/media/drawing.jpg": "/portfolio/static/media/drawing.a36a31a3286d0918be7a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.2138b6ff.css.map": "/portfolio/static/css/main.2138b6ff.css.map",
-    "main.ed2f8ebf.js.map": "/portfolio/static/js/main.ed2f8ebf.js.map",
+    "main.823d7588.css.map": "/portfolio/static/css/main.823d7588.css.map",
+    "main.f9f8f297.js.map": "/portfolio/static/js/main.f9f8f297.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2138b6ff.css",
-    "static/js/main.ed2f8ebf.js"
+    "static/css/main.823d7588.css",
+    "static/js/main.f9f8f297.js"
   ]
 }
