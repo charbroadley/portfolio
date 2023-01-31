@@ -61,7 +61,7 @@
 
     .details-section h3 {
         font-family: 'Amatic SC', sans-serif;
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     .header-about {
@@ -130,7 +130,7 @@
     .project-title {
         color: white;
         font-family: 'Amatic SC', sans-serif;
-        font-size: 2em;
+        font-size: 2.2em;
         grid-area: heading;
         display: flex;
         align-items: center;
@@ -180,15 +180,15 @@
     .contact-title {
         color: white;
         font-family: 'Amatic SC', sans-serif;
-        font-size: 2em;
+        font-size: 2.2em;
         grid-area: heading;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    #contact-info {
-        color: white;
+    .contact-info {
+        color: white !important;
         grid-area: email;
         display: flex;
         align-items: center;
