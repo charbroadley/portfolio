@@ -14,6 +14,7 @@ const Details = () => {
                                 Python<br/>
                                 Flask<br/>
                                 Node.js<br/>
+                                Express.js<br/>
                             </p>
                             <p>
                                 Javascript<br/>
@@ -23,6 +24,7 @@ const Details = () => {
                             </p>
                             <p>
                                 PostgreSQL<br/>
+                                MongoDB<br/>
                                 Git
                             </p>
                         </p>

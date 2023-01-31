@@ -1,4 +1,4 @@
-import drawing from '../images/drawing.jpg'
+    import drawing from '../images/drawing.jpg'
 
 const Heading = () => {
 

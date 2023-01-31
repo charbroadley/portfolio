@@ -19,14 +19,15 @@
 
     /* APP */
     .wholepage {
-        color: whitesmoke;
+        color: #033220;
         font-size: 1.1em;
         font-family: 'Roboto Condensed', sans-serif;
-        background-color: #FFB7C6;
+        background-color: #033220 ;
     }
 
     /* HEADING */
     .heading {
+        color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -64,6 +65,7 @@
     }
 
     .header-about {
+        color: white;
         grid-area: heading1;
         display: flex;
         align-items: center;
@@ -71,6 +73,7 @@
     }
 
     .header-stack {
+        color: white;
         grid-area: heading2;
         display: flex;
         align-items: center;
@@ -78,7 +81,7 @@
     }
 
     .about {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         grid-area: textbox1;
         width: 90%;
@@ -96,10 +99,11 @@
     .about-text {
         text-align: justify;
         overflow-wrap: break-word;
+        padding: 1em;
     }
 
     .stack {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         grid-area: textbox2;
         width: 90%;
@@ -124,6 +128,7 @@
     }
 
     .project-title {
+        color: white;
         font-family: 'Amatic SC', sans-serif;
         font-size: 2em;
         grid-area: heading;
@@ -133,7 +138,7 @@
     }
 
     .project {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         width: 90%;
         margin: auto;
@@ -173,6 +178,7 @@
     }
 
     .contact-title {
+        color: white;
         font-family: 'Amatic SC', sans-serif;
         font-size: 2em;
         grid-area: heading;
@@ -181,7 +187,8 @@
         justify-content: center;
     }
 
-    .contact-info {
+    #contact-info {
+        color: white;
         grid-area: email;
         display: flex;
         align-items: center;
@@ -214,16 +221,17 @@
 
     /* APP */
     .wholepage {
-        color: white;
+        color: #033220;
         font-size: 1.1em;
         font-family: 'Roboto Condensed', sans-serif;
-        background-color: #FFB7C6;
+        background-color: #033220 ;
     }
     /* HEADING */
     .heading {
+        color: white;
         display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .name {
@@ -254,11 +262,13 @@
     }
 
     .header-about {
+        color: white;
         grid-area: heading1;
         margin: 15px 100px 15px 100px;
     }
 
     .header-stack {
+        color: white;
         grid-area: heading2;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -266,7 +276,7 @@
     }
 
     .about {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         margin: 25px 25px 25px 100px;
         /* top, right, bottom, left */
@@ -274,6 +284,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 1em;
     }
 
     section div p{
@@ -287,7 +298,7 @@
     }
 
     .stack {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         margin: 25px 100px 25px 25px;
         grid-area: textbox2;
@@ -312,13 +323,14 @@
     }
 
     .project-title {
+        color: white;
         font-family: 'Amatic SC', sans-serif;
         font-size: 2.5em;
         margin-left: 100px;
     }
 
     .project {
-        background-color: #033220;
+        background-color: #FFB7C6;
         border-radius: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -358,6 +370,7 @@
     }
 
     .contact-title {
+        color: white;
         font-family: 'Amatic SC', sans-serif;
         font-size: 2.5em;
         margin: 15px 100px 15px 100px;
@@ -365,5 +378,6 @@
 
     .contact-info {
         font-size: 1em;
+        color: white;
     }
 }
