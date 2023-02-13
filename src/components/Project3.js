@@ -1,15 +1,17 @@
-import punkPintsScreengrab from '../images/punk-pints.png'
+import breakTimeDashboard from '../images/breaktime-dashboard.png'
 
 const Project3 = () => {
     return(
         <div className="project-container">
             <div className="project-description">
-                <h3>E-Commerce</h3>
-                <h4>Javascript, React<br/>
-                    Solo, 2 days</h4>
-                <p>A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. </p>
+                <h3>BreakTime</h3>
+                <h4>Javascript, Express.js, React, MongoDB<br/>
+                    Group, 6 days</h4>
+                <p>
+                    A habit tracking app which aims to encourage good behaviour with regards to taking breaks during the working day. Users can record waters/coffees drank, and breaks taken, and view weekly summaries of these in charts created using the Highcharts library. There is also a Breathe feature intended to guide the user in a moment of meditation and give a sense of relaxation.
+                </p>
             </div>
-            <img className="project-image" src={punkPintsScreengrab} alt="screengrab of Punk Pints app"></img>
+            <img className="project-image" src={breakTimeDashboard} alt="screengrab of the BreakTime dashboard"></img>
         </div>
     )
 }

@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-
-
-
-
 /* CSS FOR MOBILE / TABLET */
 @media screen and (max-width: 768px)
 /* @media screen and (max-width: 450px) */ {
@@ -157,9 +153,9 @@
     .project-description  p {
         text-align: justify;
         /* COME BACK TO THIS - NOT WORKING */
-        display: inline-block;
+        /* display: inline-block;
         word-break: break-word;
-        overflow-wrap: break-word
+        overflow-wrap: break-word; */
     }
 
     .project-image {
@@ -350,6 +346,10 @@
         /* display: flex;
         align-items: center;
         justify-content: center; */
+    }
+
+    .project-description p {
+        text-align: justify;
     }
 
     .project-image {
