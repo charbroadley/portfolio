@@ -347,12 +347,22 @@
         justify-content: center; */
     }
 
+    .project-description h3 {
+        padding: 15px;
+    }
+
+    .project-description h4 {
+        padding: 15px;
+    }
+
     .project-description p {
         text-align: justify;
+        padding: 15px;
     }
 
     .project-image {
-        height: 200px;
+        width: 400px;
+        /* height: 200px; */
         grid-area: project-image;
         display: flex;
         align-items: center;

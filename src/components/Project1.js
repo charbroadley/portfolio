@@ -13,7 +13,7 @@ const Project1 = () => {
                     <a href="https://github.com/charbroadley/fantasy_bazaar">View on GitHub</a>
                 </p>
             </div>
-            <img className="project-image" src={fantasyBazaar} alt="bullseye with rocket flying across"></img>
+            <img className="project-image" src={fantasyBazaar} alt="The Fantasy Bazaar homepage, showing shop news and stock updates"></img>
         </div>
     )
 }

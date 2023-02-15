@@ -1,15 +1,15 @@
-import punkPintsScreengrab from '../images/punk-pints.png'
+import breathe from '../images/breathe.png'
 
 const Project4 = () => {
     return(
         <div className="project-container">
             <div className="project-description">
-                <h3>E-Commerce</h3>
-                <h4>Javascript, React<br/>
-                    Solo, 2 days</h4>
-                <p>A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. A bit about project three. </p>
+                <h3>Breathe</h3>
+                <h4>JavaScript, React, CSS3<br/>
+                    Solo</h4>
+                <p>A personal mini-project undertaken as part of our JavaScript group project (BreakTime). I wanted to experiment with CSS to create an animation. My animation encourages the user to breath in time with its movements, and creates a sense of calm and relaxation. </p>
             </div>
-            <img className="project-image" src={punkPintsScreengrab} alt="screengrab of Punk Pints app"></img>
+            <img className="project-image" src={breathe} alt="A screengrab of the Breathe animation"></img>
         </div>
     )
 }
