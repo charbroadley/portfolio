@@ -202,9 +202,9 @@
 
 
 
+/* CSS FOR TABLETS 769px - 1079px */
 
-
-/* CSS FOR DESKTOP COMPUTERS*/
+/* CSS FOR DESKTOP COMPUTERS */
 @media (min-width: 1080px) {
     body {
         margin: 0px;
@@ -348,16 +348,20 @@
     }
 
     .project-description h3 {
-        padding: 15px;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 2em;
+        padding-left: 15px;
+        margin: 0px;
     }
 
     .project-description h4 {
-        padding: 15px;
+        padding-left: 15px;
+        margin: 0px;
     }
 
     .project-description p {
         text-align: justify;
-        padding: 15px;
+        padding-left: 15px;
     }
 
     .project-image {

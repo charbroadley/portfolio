@@ -5,6 +5,7 @@ const Project2 = () => {
         <div className="project-container">
             <div className="project-description">
                 <h3>Punk Pints</h3>
+                <br/>
                 <h4>JavaScript, React, API<br/>
                     Solo, 2 days</h4>
                 <p>

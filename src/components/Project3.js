@@ -5,6 +5,7 @@ const Project3 = () => {
         <div className="project-container">
             <div className="project-description">
                 <h3>BreakTime</h3>
+                <br/>
                 <h4>JavaScript, Express.js, React, MongoDB<br/>
                     Group, 6 days</h4>
                 <p>
