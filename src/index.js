@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css'; // MEDIA QUERIES: DESKTOP
-import './tablet.css'; //MEDIA QUERIES: TABLET
 import './mobile.css'; // MEDIA QUERIES: MOBILE
 
 import App from './App';

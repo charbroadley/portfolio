@@ -4,7 +4,7 @@
 
 
 /* CSS FOR DESKTOP COMPUTERS */
-@media (min-width: 1080px) {
+@media (min-width: 1050px) {
     body {
         margin: 0px;
         height: 100%;
@@ -200,9 +200,8 @@
         border-radius: 12px;
         box-shadow: 7px 7px #033220;
         padding: 10px;
-        margin-right: 120px;
+        margin-right: 20px;
     }
-
 
     .button:hover {
         background-color: #c7c3c6;
