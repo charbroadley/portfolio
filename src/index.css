@@ -162,9 +162,6 @@
 
     .project-description {
         grid-area: project-text;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
     }
 
     .project-description h3 {
