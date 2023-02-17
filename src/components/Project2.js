@@ -11,7 +11,9 @@ const Project2 = () => {
                 <p>
                     A fun, interactive app using the Punk API. Users enter a number and are returned a suggested Brew Dog beer for their next pint, which they can mark as already drank, or add to their list to try next.
                     <br/><br/>
-                    <a className="button" href="https://github.com/charbroadley/punk_pints">View on GitHub</a>
+                    <div className="button-container">
+                        <a className="button" href="https://github.com/charbroadley/punk_pints">View on GitHub</a>
+                    </div>
                 </p>
             </div>
             <img className="project-image" src={punkPintsScreengrab} alt="screengrab of Punk Pints app"></img>
