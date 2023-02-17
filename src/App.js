@@ -6,6 +6,7 @@ import Contact from './components/Contact.js'
 function App() {
   return (
       <main className="wholepage">
+          <div className="box"/>
             <Heading/>
             <Details/>
             <Projects/>

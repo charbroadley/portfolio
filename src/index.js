@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// SPLIT CSS INTO A PAGE PER MEDIA QUERY AND IMPORT THEM ALL HERE
+
+import './index.css'; // MEDIA QUERIES: DESKTOP
+import './tablet.css'; //MEDIA QUERIES: TABLET
+import './mobile.css'; // MEDIA QUERIES: MOBILE
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -1,207 +1,6 @@
+/* MAIN CSS */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
-/* CSS FOR MOBILE / TABLET */
-@media screen and (max-width: 768px)
-/* @media screen and (max-width: 450px) */ {
-    body {
-        margin: 0px;
-        height: 100%;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    /* APP */
-    .wholepage {
-        color: #033220;
-        font-size: 1.1em;
-        font-family: 'Roboto Condensed', sans-serif;
-        background-color:#ebe8ea ;
-    }
-
-    /* HEADING */
-    .heading {
-        color: #033220;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .name {
-        font-family: 'Amatic SC', sans-serif;
-        font-size: 3em;
-        margin: 0px;
-    }
-
-    .job-title {
-        font-family: 'Amatic SC', sans-serif;
-        font-size: 2.5em;
-        margin: 0px;
-    }
-
-    .me {
-        border-radius: 50%;
-    }
-
-    /* DETAILS */
-    .details-section {
-        display: grid;
-        grid-template-areas:
-            'heading1'
-            'textbox1'
-            'heading2'
-            'textbox2';
-    }
-
-    .details-section h3 {
-        font-family: 'Amatic SC', sans-serif;
-        font-size: 2.2em;
-    }
-
-    .header-about {
-        color: #033220;
-        grid-area: heading1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header-stack {
-        color: #033220;
-        grid-area: heading2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .about {
-        background-color: #FFB7C6;
-        border-radius: 20px;
-        grid-area: textbox1;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    section div p{
-        padding: 5px;
-        margin: 0px;
-    }
-
-    .about-text {
-        text-align: justify;
-        overflow-wrap: break-word;
-        padding: 1em;
-    }
-
-    .stack {
-        background-color: #FFB7C6;
-        border-radius: 20px;
-        grid-area: textbox2;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .stack-text {
-        overflow-wrap: break-word;
-        text-align: center;
-    }
-
-    /* PROJECTS */
-    .projects-container {
-        display: grid;
-        grid-template-areas:
-            'heading'
-            'projects';
-        
-    }
-
-    .project-title {
-        color: #033220;
-        font-family: 'Amatic SC', sans-serif;
-        font-size: 2.2em;
-        grid-area: heading;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .project {
-        background-color: #FFB7C6;
-        border-radius: 20px;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 15px;
-    }
-
-    /* INDIVIDUAL PROJECTS */
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-
-    .project-description  p {
-        text-align: justify;
-        /* COME BACK TO THIS - NOT WORKING */
-        /* display: inline-block;
-        word-break: break-word;
-        overflow-wrap: break-word; */
-    }
-
-    .project-image {
-        max-width: 80%;
-        margin: auto;
-        height: responsive;
-    }
-
-    /* CONTACT */
-    .contact {
-        display: grid;
-        grid-template-areas:
-            'heading'
-            'email'
-            'linkedin';
-    }
-
-    .contact-title {
-        color: #033220;
-        font-family: 'Amatic SC', sans-serif;
-        font-size: 2.2em;
-        grid-area: heading;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contact-info {
-        color: #033220 !important;
-        grid-area: email;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1em;
-    }
-
-    .linkedin {
-        grid-area: linkedin;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-/* CSS FOR TABLETS 769px - 1079px */
 
 
 /* CSS FOR DESKTOP COMPUTERS */
@@ -213,6 +12,15 @@
 
     * {
         box-sizing: border-box;
+    }
+
+
+    .box {
+        --mask: 
+            linear-gradient(to top,red 3em,red 0),
+            radial-gradient(3em,#000 98%,#0000) bottom/5.55em 6em;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
     }
 
     /* APP */
