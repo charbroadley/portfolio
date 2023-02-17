@@ -24,7 +24,10 @@
     /* HEADING */
     .heading {
         color: #ebe6ea;
-        display: flex;
+        display: grid;
+        grid-template-areas:
+            "name image"
+            "job-title image";
         justify-content: space-evenly;
         align-items: center;
         position:relative;
@@ -49,14 +52,45 @@
     .name {
         font-family: 'Amatic SC', sans-serif;
         font-size: 5em;
+        grid-area: name;  
     }
+    
 
     .job-title {
         font-family: 'Amatic SC', sans-serif;
         font-size: 4em;
+        grid-area: job-title;
+        /* TYPEWRITER */
+        overflow: hidden; 
+        border-right: .10em solid #FF8D8D;
+        white-space: nowrap;   
+        margin: 0 auto;   
+        letter-spacing: .4rem;   
+        animation: typewriter 3s steps(30, end), cursor 1s step-end infinite;
+    }
+
+    @keyframes typewriter {
+        from { 
+            width: 0;
+        }
+        to { 
+            width: 100%;
+        }
+    }
+
+    @keyframes cursor {
+        from, to { 
+            border-color: transparent; 
+    }
+        50% { 
+        border-color: #FFB7C6; 
+        }
     }
 
     .me {
+        grid-area: image;
+        width: 300px;
+        height: auto;
         border-radius: 50%;
     }
     /* DETAILS */
