@@ -201,8 +201,8 @@
 }
 
 
-
 /* CSS FOR TABLETS 769px - 1079px */
+
 
 /* CSS FOR DESKTOP COMPUTERS */
 @media (min-width: 1080px) {
@@ -276,6 +276,7 @@
         border-radius: 20px;
         margin: 25px 25px 25px 100px;
         /* top, right, bottom, left */
+        box-shadow: 15px 15px #033220;
         grid-area: textbox1;
         display: flex;
         align-items: center;
@@ -297,6 +298,7 @@
         background-color: #FFB7C6;
         border-radius: 20px;
         margin: 25px 100px 25px 25px;
+        box-shadow: 15px 15px #033220;
         grid-area: textbox2;
         display: flex;
         align-items: center;
@@ -327,10 +329,11 @@
     .project {
         background-color: #FFB7C6;
         border-radius: 20px;
+        box-shadow: 15px 15px #033220;
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     /* INDIVIDUAL PROJECTS */
@@ -362,15 +365,32 @@
     .project-description p {
         text-align: justify;
         padding-left: 15px;
+        padding-bottom: 25px;
     }
 
     .project-image {
         width: 400px;
         /* height: 200px; */
+        padding: 10px;
         grid-area: project-image;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .github-link {
+        text-decoration: none;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 1.25em;
+        background-color: #ebe8ea;
+        border-radius: 12px;
+        /* box-shadow: 7px 7px #033220; */
+        padding: 10px;
+    }
+
+    .github-link:hover {
+        /* background-color: red; */
+        box-shadow: 7px 7px #033220;
     }
 
     /* CONTACT */
