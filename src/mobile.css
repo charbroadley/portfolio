@@ -15,15 +15,32 @@
         color: #033220;
         font-size: 1.1em;
         font-family: 'Roboto Condensed', sans-serif;
-        background-color:#ebe8ea ;
+        background-color: #c7c3c6 ;
     }
 
     /* HEADING */
     .heading {
-        color: #033220;
+        color: #ebe6ea;
         display: flex;
         flex-direction: column;
         align-items: center;
+        position:relative;
+        background: #033220;
+        padding:50px;
+    }
+
+    .heading::after { 
+        position:absolute;
+        bottom: -50px;
+        left: 0px;
+        width: 100%;
+        content:" ";
+        background: 
+        radial-gradient(circle at 50% 0%, #033220 25%, #c7c3c6 26%, #c7c3c6 40%);
+        background-color: #033220;
+        background-size:50px 100px;
+        height:50px;
+        background-repeat: repeat-x;
     }
 
     .name {
@@ -75,6 +92,7 @@
 
     .about {
         background-color: #FFB7C6;
+        box-shadow: 15px 15px #033220;
         border-radius: 20px;
         grid-area: textbox1;
         width: 90%;
@@ -97,6 +115,7 @@
 
     .stack {
         background-color: #FFB7C6;
+        box-shadow: 15px 15px #033220;
         border-radius: 20px;
         grid-area: textbox2;
         width: 90%;
@@ -132,6 +151,7 @@
 
     .project {
         background-color: #FFB7C6;
+        box-shadow: 15px 15px #033220;
         border-radius: 20px;
         width: 90%;
         margin: auto;
@@ -147,6 +167,7 @@
     }
 
     .project-description  p {
+        font-family: 'Amatic SC', sans-serif;
         text-align: justify;
         /* COME BACK TO THIS - NOT WORKING */
         /* display: inline-block;
@@ -158,6 +179,38 @@
         max-width: 80%;
         margin: auto;
         height: responsive;
+    }
+
+    .button {
+        text-decoration: none;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 1.25em;
+        background-color: #ebe6ea;
+        border-radius: 12px;
+        box-shadow: 7px 7px #033220;
+        padding: 10px;
+        margin-right: 120px;
+    }
+
+    .button:hover {
+        background-color: #c7c3c6;
+        box-shadow: 5px 5px #033220;
+    }
+
+    .live-link {
+        text-decoration: none;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 1.25em;
+        background-color: #ebe6ea;
+        border-radius: 12px;
+        box-shadow: 7px 7px #033220;
+        padding: 10px;
+
+    }
+
+    .live-link:hover {
+        background-color: #c7c3c6;
+        box-shadow: 5px 5px #033220;
     }
 
     /* CONTACT */
