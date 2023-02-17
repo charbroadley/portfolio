@@ -10,9 +10,9 @@ const Project4 = () => {
                     Solo</h4>
                 <p>A personal mini-project undertaken as part of our JavaScript group project (BreakTime). I wanted to experiment with CSS to create an animation. My animation encourages the user to breath in time with its movements, and creates a sense of calm and relaxation.
                 <br/><br/>
-                    <a href="https://github.com/charbroadley/breathe">View on GitHub</a>
+                    <a className="button" href="https://github.com/charbroadley/breathe">View on GitHub</a>
                 <br/>
-                    <a href="https://charbroadley.github.io/breathe/">View Live App in Browser</a>
+                    <a className="button" href="https://charbroadley.github.io/breathe/">View Live App in Browser</a>
                 </p>
             </div>
             <img className="project-image" src={breathe} alt="A screengrab of the Breathe animation"></img>

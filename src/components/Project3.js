@@ -11,7 +11,7 @@ const Project3 = () => {
                 <p>
                     A habit tracking app which aims to encourage good behaviour with regards to taking breaks during the working day. Users can record waters/coffees drank, and breaks taken, and view weekly summaries of these in charts created using the Highcharts library. There is also a Breathe feature intended to guide the user in a moment of meditation and give a sense of relaxation.
                     <br/><br/>
-                    <a href="https://github.com/charbroadley/BreakTime">View on GitHub</a>
+                    <a className="button" href="https://github.com/charbroadley/BreakTime">View on GitHub</a>
                 </p>
             </div>
             <img className="project-image" src={breakTimeDashboard} alt="The BreakTime app dashboard"></img>

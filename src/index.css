@@ -378,19 +378,19 @@
         justify-content: center;
     }
 
-    .github-link {
+    .button {
         text-decoration: none;
         font-family: 'Amatic SC', sans-serif;
         font-size: 1.25em;
         background-color: #ebe8ea;
         border-radius: 12px;
-        /* box-shadow: 7px 7px #033220; */
+        box-shadow: 7px 7px #033220;
         padding: 10px;
     }
 
-    .github-link:hover {
-        /* background-color: red; */
-        box-shadow: 7px 7px #033220;
+    .button:hover {
+        background-color: #c7c3c6;
+        box-shadow: 5px 5px #033220;
     }
 
     /* CONTACT */
