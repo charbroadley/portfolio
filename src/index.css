@@ -32,7 +32,7 @@
         align-items: center;
         position:relative;
         background: #033220;
-        padding:50px;
+        padding-bottom: 20px;
     }
 
     .heading::after { 
@@ -51,14 +51,14 @@
 
     .name {
         font-family: 'Amatic SC', sans-serif;
-        font-size: 5em;
+        font-size: 4.5em;
         grid-area: name;  
     }
     
 
     .job-title {
         font-family: 'Amatic SC', sans-serif;
-        font-size: 4em;
+        font-size: 3.5em;
         grid-area: job-title;
         /* TYPEWRITER */
         overflow: hidden; 
@@ -89,7 +89,7 @@
 
     .me {
         grid-area: image;
-        width: 300px;
+        width: 250px;
         height: auto;
         border-radius: 50%;
     }
