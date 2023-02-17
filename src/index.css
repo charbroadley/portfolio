@@ -386,9 +386,27 @@
         border-radius: 12px;
         box-shadow: 7px 7px #033220;
         padding: 10px;
+        margin-right: 120px;
     }
 
+
     .button:hover {
+        background-color: #c7c3c6;
+        box-shadow: 5px 5px #033220;
+    }
+
+    .live-link {
+        text-decoration: none;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 1.25em;
+        background-color: #ebe8ea;
+        border-radius: 12px;
+        box-shadow: 7px 7px #033220;
+        padding: 10px;
+
+    }
+
+    .live-link:hover {
         background-color: #c7c3c6;
         box-shadow: 5px 5px #033220;
     }
