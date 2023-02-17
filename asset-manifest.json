@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c55741b5.css",
+    "main.css": "/portfolio/static/css/main.906ba93b.css",
     "main.js": "/portfolio/static/js/main.6d395646.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/breaktime-dashboard.png": "/portfolio/static/media/breaktime-dashboard.297548a50fa256d7a502.png",
@@ -9,12 +9,12 @@
     "static/media/fantasy-bazaar.png": "/portfolio/static/media/fantasy-bazaar.61e219377579de60cff8.png",
     "static/media/drawing.jpg": "/portfolio/static/media/drawing.a36a31a3286d0918be7a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.c55741b5.css.map": "/portfolio/static/css/main.c55741b5.css.map",
+    "main.906ba93b.css.map": "/portfolio/static/css/main.906ba93b.css.map",
     "main.6d395646.js.map": "/portfolio/static/js/main.6d395646.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55741b5.css",
+    "static/css/main.906ba93b.css",
     "static/js/main.6d395646.js"
   ]
 }
