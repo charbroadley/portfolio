@@ -16,6 +16,7 @@ const Details = () => {
                                 Flask<br/>
                                 Node.js<br/>
                                 Express.js<br/>
+                                Mocha<br/>
                                 Jest<br/>
                                 Cypress<br/>
                             </p>
@@ -24,9 +25,12 @@ const Details = () => {
                                 React<br/>
                                 HTML5<br/>
                                 CSS3<br/>
+                                C#<br/>
+                                Unity<br/>
                             </p>
                             <p> 
                                 Java<br/>
+                                Spring<br/>
                                 PostgreSQL<br/>
                                 MongoDB<br/>
                                 Git<br/>
