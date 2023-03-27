@@ -7,12 +7,12 @@ const Project2 = () => {
                 <h3>Punk Pints</h3>
                 <br/>
                 <h4>JavaScript, React, API<br/>
-                    Solo, 2 days</h4>
+                    Solo, weekend</h4>
                 <p>
                     A fun, interactive app using the Punk API. Users enter a number and are returned a suggested Brew Dog beer for their next pint, which they can mark as already drank, or add to their list to try next.
                     <br/><br/>
                     <div className="button-container">
-                        <a className="button" href="https://github.com/charbroadley/punk_pints">View on GitHub</a>
+                        <a className="button" href="https://github.com/charbroadley/punk_pints" target="_blank">View on GitHub</a>
                     </div>
                 </p>
             </div>

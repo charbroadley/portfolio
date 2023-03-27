@@ -7,12 +7,12 @@ const Project1 = () => {
                 <h3>Fantasy Bazaar</h3>
                     <br/>
                 <h4>Python, Flask, PostgreSQL, CSS3, HTML5<br/>
-                    Solo, 6 days</h4>
+                    Solo, 1 week</h4>
                 <p>
                     My first project at CodeClan. An inventory application for a bookshop which allows the shop owner to create and edit books/authors, track individual books/authors, and clearly display low stock and out of stock items. I was able to use my own experience of working in independent shops to better understand what my client would find beneficial. 
                     <br/><br/>
                     <div className="button-container">
-                        <a className="button" href="https://github.com/charbroadley/fantasy_bazaar">View on GitHub</a>
+                        <a className="button" href="https://github.com/charbroadley/fantasy_bazaar" target="_blank">View on GitHub</a>
                     </div>
                 </p>
             </div>
