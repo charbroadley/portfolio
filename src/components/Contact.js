@@ -1,5 +1,5 @@
-import linkedin from "../images/linkedin.png"
-import github from "../images/github.png"
+import linkedin from "../images/linkedin-new.png"
+import github from "../images/github-new.png"
 
 
 const Contact = () => {
