@@ -17,8 +17,7 @@ const Project5 = () => {
                     </div>
                 </p>
             </div>
-            <img className="project-image" src={startScreen} alt="The start screen from Children of the Bookcasr"></img>
-            <iframe width="420" height="315" src="https://youtu.be/rCnGBnvFmqc"></iframe>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/rCnGBnvFmqc"></iframe>
         </div>
     )
 }
