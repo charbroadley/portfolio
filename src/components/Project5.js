@@ -15,7 +15,7 @@ const Project5 = () => {
                         <a className="button" href="https://github.com/samuel-williams-ed/Escape_Game" target="_blank">View on GitHub</a>
                     </div>
                     <div className="button-container">
-                        <a className="button" href="https://play.unity.com/mg/other/children-of-the-bookcase" target="_blank">Play on Unity Play</a>
+                        <a className="button" href="https://play.unity.com/mg/other/children-of-the-bookcase" target="_blank">See on Unity Play</a>
                     </div>
                 </p>
             </div>
