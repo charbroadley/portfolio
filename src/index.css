@@ -228,6 +228,15 @@
         justify-content: center;
     }
 
+    .project-video {
+        width: 400px;
+        height: 200px;
+        grid-area: project-image;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .button {
         text-decoration: none;
         font-family: 'Amatic SC', sans-serif;
@@ -252,6 +261,7 @@
         border-radius: 12px;
         box-shadow: 7px 7px #033220;
         padding: 10px;
+        margin-right: 20px;
 
     }
 

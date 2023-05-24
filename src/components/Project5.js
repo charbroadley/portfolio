@@ -14,10 +14,11 @@ const Project5 = () => {
                     <div className="button-container">
                         <a className="button" href="https://github.com/samuel-williams-ed/Escape_Game" target="_blank">View on GitHub</a>
                         <a className="live-link" href="https://play.unity.com/mg/other/children-of-the-bookcase" target="_blank">Play on Unity Play</a>
+                        <a className="live-link" href="https://www.youtube.com/embed/rCnGBnvFmqc" target="_blank">Watch presentation on YouTube</a>
                     </div>
                 </p>
             </div>
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/rCnGBnvFmqc"></iframe>
+            <img className="project-image" src={startScreen} alt="A screengrab of the game start screen"></img>
         </div>
     )
 }
