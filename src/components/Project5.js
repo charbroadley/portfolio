@@ -11,11 +11,14 @@ const Project5 = () => {
                 <p>Our CodeClan capstone project. We made a 3D, first-person escape room style game, using the Unity game engine and C# scripts.<br/>
                 I was excited to work on a project which was totally different to anything I’d done before, and also to create a game which my friends and I would enjoy playing.
                 <br/><br/>
+
                     <div className="button-container">
                         <a className="button" href="https://github.com/samuel-williams-ed/Escape_Game" target="_blank">View on GitHub</a>
-                        <a className="live-link" href="https://play.unity.com/mg/other/children-of-the-bookcase" target="_blank">Play on Unity Play</a>
-                        <a className="live-link" href="https://www.youtube.com/embed/rCnGBnvFmqc" target="_blank">Watch presentation on YouTube</a>
+                        <a className="link" href="https://www.youtube.com/embed/rCnGBnvFmqc" target="_blank">Watch on YouTube</a>
+                        {/* <a className="live-link" href="https://play.unity.com/mg/other/children-of-the-bookcase" target="_blank">Play on Unity Play</a> */}
+                        
                     </div>
+
                 </p>
             </div>
             <img className="project-image" src={startScreen} alt="A screengrab of the game start screen"></img>

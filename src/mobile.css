@@ -197,7 +197,8 @@
         display: grid;
         grid-template-areas: 
             "button1"
-            "button2";
+            "button2"
+            "button3";
         text-align: center;
     }
 
@@ -231,6 +232,23 @@
     }
 
     .live-link:hover {
+        background-color: #c7c3c6;
+        box-shadow: 5px 5px #033220;
+    }
+
+    .watch {
+        grid-area: button2;
+        text-decoration: none;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 1.25em;
+        background-color: #ebe6ea;
+        border-radius: 12px;
+        box-shadow: 7px 7px #033220;
+        padding: 10px;
+
+    }
+
+    .watch:hover {
         background-color: #c7c3c6;
         box-shadow: 5px 5px #033220;
     }

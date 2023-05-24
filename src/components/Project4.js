@@ -12,7 +12,7 @@ const Project4 = () => {
                 <br/><br/>
                     <div className="button-container">
                         <a className="button" href="https://github.com/charbroadley/breathe" target="_blank">View on GitHub</a>
-                        <a className="live-link" href="https://charbroadley.github.io/breathe/" target="_blank">View Live App in Browser</a>
+                        <a className="link" href="https://charbroadley.github.io/breathe/" target="_blank">View Live App</a>
                     </div>
                 </p>
             </div>
